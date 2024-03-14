@@ -1,0 +1,258 @@
+body {
+  background-color: #17302d;
+  font-family: "Poppins", sans-serif;
+
+  background-image: url(img/right-large-leaf.png), url(img/left-large-leaf.svg);
+  background-size: 70vh, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 20%, left top;
+}
+
+header {
+  margin-top: 35px;
+  font-weight: 100;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header .pages {
+  width: 60%;
+  font-weight: 300;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .pages a {
+  font-size: 27px;
+  color: aliceblue;
+  text-decoration: none;
+}
+header .icons {
+  width: 7%;
+  /* border: 3px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header h1 .c-green {
+  color: #4cc650;
+}
+header h1 img {
+  width: 55px;
+  height: 55px;
+}
+header h1 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-weight: 300;
+}
+
+main {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+  padding-left: 85px;
+}
+.section1 {
+  margin-top: 80px;
+}
+.section1 h2 {
+  font-size: 50px;
+  width: 22%;
+}
+.green-text {
+  color: #4cc650;
+}
+.c-white {
+  color: aliceblue;
+}
+.section1 p {
+  margin-bottom: 40px;
+  color: aliceblue;
+  width: 22%;
+}
+.section1 .button1 {
+  background-color: #4cc650;
+  font-weight: bold;
+  color: #ffffff;
+  width: 8%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 30px;
+}
+.section1 .button2 {
+  background-color: rgba(255, 255, 255, 0.128);
+  color: #ffffff;
+  width: 8%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid whitesmoke;
+}
+.plant-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 180px;
+  width: 1200px;
+}
+article {
+  border: none;
+  border-radius: 15px;
+  width: 40%;
+  padding: 20px;
+
+  background-color: rgba(255, 255, 255, 0.438);
+  display: flex;
+  justify-content: space-around;
+  backdrop-filter: blur(5px);
+}
+article img {
+  width: 30%;
+  height: 170px;
+  border-radius: 20px;
+}
+article h3 {
+  color: #ffffff;
+  font-weight: 400;
+  margin: 0;
+}
+article h2 {
+  color: #ffffff;
+}
+article button {
+  color: #ffffff;
+  background-color: #4cc650;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+
+.circle {
+  background-image: url(img/line\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* backdrop-filter: blur(17px); */
+
+  height: 500px;
+  width: 500px;
+
+  position: absolute;
+  top: 0px;
+  right: 200px;
+}
+
+.circle .tree {
+  width: 23%;
+  background-color: #4d5e49;
+  padding: 10px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  position: absolute;
+  top: 90px;
+  left: -30px;
+  box-shadow: 1px 1px 10px rgb(38, 36, 36);
+}
+
+.circle .tree1 {
+  width: 23%;
+  padding: 10px;
+  background-color: #1f5027;
+  border-radius: 10px;
+  position: absolute;
+  padding-bottom: 35px;
+  bottom: 20px;
+  right: 35px;
+}
+
+.circle .tree2 {
+  width: 23%;
+  padding: 10px;
+  padding-bottom: 50px;
+  background-color: #2c2f3e;
+  border-radius: 10px;
+  position: absolute;
+  left: 410px;
+  top: 30px;
+  width: 23%;
+
+  padding-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px black;
+}
+
+.circle .g-btn {
+  background-color: #4cc650;
+  width: 23%;
+  color: #ffffff;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  position: absolute;
+  left: 250px;
+  top: 55px;
+}
+
+.circle .w-btn {
+  background-color: #ffffff;
+  width: 23%;
+  color: #4cc650;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+
+  position: absolute;
+  bottom: 100px;
+  left: 80px;
+}
+
+.circle .tree img {
+  width: 93%;
+  border-radius: 14px;
+  height: auto;
+  display: block;
+  margin: 0px auto;
+}
+.circle .tree1 img {
+  width: 93%;
+  border-radius: 14px;
+  height: auto;
+  display: block;
+  margin: 0px auto;
+}
+.circle .tree2 img {
+  width: 93%;
+  border-radius: 14px;
+  height: auto;
+  display: block;
+  margin: 0px auto;
+}
+.circle-backdrop {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+
+  background-color: #4cc6506e;
+  filter: blur(400px);
+
+  position: absolute;
+  top: -70px;
+  right: 130px;
+}
+
+.circle-backdrop2 {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+
+  background-color: #4cc6504d;
+  filter: blur(260px);
+
+  position: absolute;
+  top: -70px;
+  left: 130px;
+}
